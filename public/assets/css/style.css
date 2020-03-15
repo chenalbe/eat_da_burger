@@ -1,0 +1,23 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  align-content: center;
+}
+
+.label {
+  font-weight: bold;
+  align-content: center;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+  align-content: center;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  align-content: center;
+}

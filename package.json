@@ -1,0 +1,27 @@
+{
+  "name": "Eat_Da_Burger",
+  "version": "1.0.0",
+  "description": "MVC",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": null,
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenalbe/eat_da_burger"
+  },
+  "keywords": [
+    "burger"
+  ],
+  "author": "Ta-Chung Chen",
+  "license": "UNLICENSED"
+}

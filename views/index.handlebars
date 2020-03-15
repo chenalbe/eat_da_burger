@@ -7,8 +7,8 @@
       <li>
 	{{name}}
 
-	<button class="change-eaten" data-id="{{id}}" data-eatStatus=0>
-		{{#if eaten}}Reorder!{{else}}Feast Time!{{/if}}
+	<button class="changeStatus" data-id="{{id}}">
+		{{#if eaten}}Remove{{else}}Feast Time!{{/if}}
 	</button>
 </li>
     {{/unless}}
@@ -23,8 +23,8 @@
       <li>
 	{{name}}
 
-	<button class="change-reorder" data-id="{{id}}" data-eatStatus=1>
-		{{#if eaten}}Reorder!{{else}}Feast Time!{{/if}}
+	<button class="delete" data-id="{{id}}">
+		{{#if eaten}}Remove{{else}}Feast Time!{{/if}}
 	</button>
 </li>
     {{/if}}

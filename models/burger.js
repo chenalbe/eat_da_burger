@@ -13,8 +13,13 @@ var burger = {
       cb(res);
     });
   },
-  update: function(objColVals, condition, cb) {
-    orm.update("burger", objColVals, condition, function(res) {
+  update: function(condition, cb) {
+    orm.update(condition, function(res) {
+      cb(res);
+    });
+  },
+  delete: function(condition, cb) {
+    orm.delete(condition, function(res){
       cb(res);
     });
   }

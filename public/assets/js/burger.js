@@ -30,7 +30,7 @@ $(function() {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
-    var newCat = {
+    var newburger = {
       name: $("#ca").val().trim(),
       sleepy: $("[name=eaten]:checked").val().trim()
     };
